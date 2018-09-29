@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" ><!-- Added this statement from the stack overflow solution -->
 <suite name="Automation of FreeCRM">
-<!-- <listeners>
+<listeners>
 		<listener class-name="com.qa.reports.ExtentReportListener"/>
 		<listener class-name="com.crm.Analyzer.MyTransformer"/>
-</listeners> -->
+</listeners>
  <test name="Test">
     <classes>
       <class name = "com.crm.tests.LoginPageTest"></class>
