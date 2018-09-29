@@ -53,7 +53,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority=3)
 	public void validateNewContactLinktest()
 	{	
-		testUtil.movetoFrame();
+		driver.switchTo().frame("mainpanel");
 		homePage.clickOnNewContactLink();
 	}
 	@Test(priority=4)

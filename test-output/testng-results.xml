@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53372" started-at="2018-09-15T09:35:01Z" finished-at="2018-09-15T09:35:54Z">
+  <suite name="Default suite" duration-ms="81577" started-at="2018-09-29T11:33:54Z" finished-at="2018-09-29T11:35:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53372" started-at="2018-09-15T09:35:01Z" finished-at="2018-09-15T09:35:54Z">
-      <class name="com.crm.tests.CompanyLookUpPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.tests.CompanyLookUpPageTest@18be83e4]" name="setup" is-config="true" duration-ms="49934" started-at="2018-09-15T15:05:01Z" finished-at="2018-09-15T15:05:51Z">
+    <test name="Default test" duration-ms="81577" started-at="2018-09-29T11:33:54Z" finished-at="2018-09-29T11:35:15Z">
+      <class name="com.crm.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.tests.ContactsPageTest@1794d431]" name="setUp" is-config="true" duration-ms="70241" started-at="2018-09-29T11:33:54Z" finished-at="2018-09-29T11:35:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateSearch()[pri:0, instance:com.crm.tests.CompanyLookUpPageTest@18be83e4]" name="validateSearch" duration-ms="2359" started-at="2018-09-15T15:05:51Z" finished-at="2018-09-15T15:05:53Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewContact()[pri:0, instance:com.crm.tests.ContactsPageTest@1794d431]" name="addNewContact" duration-ms="10000" started-at="2018-09-29T11:35:04Z" finished-at="2018-09-29T11:35:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.tests.CompanyLookUpPageTest@18be83e4]" name="tearDown" is-config="true" duration-ms="1011" started-at="2018-09-15T15:05:53Z" finished-at="2018-09-15T15:05:54Z">
+        </test-method> <!-- addNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.tests.ContactsPageTest@1794d431]" name="tearDown" is-config="true" duration-ms="1188" started-at="2018-09-29T11:35:14Z" finished-at="2018-09-29T11:35:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.tests.CompanyLookUpPageTest -->
+      </class> <!-- com.crm.tests.ContactsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

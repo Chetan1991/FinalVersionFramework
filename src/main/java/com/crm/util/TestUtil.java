@@ -17,6 +17,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import com.crm.base.TestBase;
 import com.google.common.io.Files;
@@ -28,6 +29,9 @@ public class TestUtil extends TestBase{
 	static Sheet sheet;
 	static int no;
 	public static String TESTDATA_SHEET_PATH = "C:\\Users\\CRC\\eclipse-workspace\\freeCRM\\src\\main\\java\\com\\crm\\data\\newConatct.xlsx";
+	public static Select select;
+	
+	
 	//For switching to frame
 	public  void movetoFrame()
 	{
@@ -86,9 +90,6 @@ public class TestUtil extends TestBase{
 			System.out.println("Error occured while saving snap");
 			return null;
 		}
-		
-		
-		
 	}
 	//Drawing border
 	public static void drawBorder(WebDriver driver, WebElement element)
@@ -108,4 +109,11 @@ public class TestUtil extends TestBase{
 		Date date = new Date();
 		return dateFormat.format(date);
 	}
+	// For selection of value by index
+	public void selectDropDownData(WebElement element, String data)
+	{
+		select = new Select(element);
+		select.selectByVisibleText(data);
+	}
+	
 }
