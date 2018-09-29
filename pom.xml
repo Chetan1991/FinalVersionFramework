@@ -85,7 +85,7 @@
           <version>2.20.1</version> 
           <configuration>
           <suiteXmlFiles>
-    	      <SuiteXmlFile>/freeCRM/testng.xml</SuiteXmlFile>
+    	      <SuiteXmlFile>testng.xml</SuiteXmlFile>
           </suiteXmlFiles>
           </configuration>
         </plugin>
