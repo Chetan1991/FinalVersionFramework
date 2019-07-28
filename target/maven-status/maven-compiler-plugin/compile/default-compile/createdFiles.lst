@@ -1,0 +1,13 @@
+com\crm\Analyzer\RetryAnalyzer.class
+com\crm\base\TestBase.class
+com\crm\pages\TasksPage.class
+com\crm\pages\LoginPage.class
+com\crm\util\TestUtil.class
+com\crm\Analyzer\MyTransformer.class
+com\crm\pages\ContactsPage.class
+com\crm\pages\CompanyLookUpPage.class
+com\crm\reports\ExtentManager.class
+com\crm\pages\DealsPage.class
+com\crm\pages\HomePage.class
+com\crm\reports\ExtentReportListener.class
+com\crm\pages\NewContactsPage.class

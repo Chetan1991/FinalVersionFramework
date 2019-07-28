@@ -1,0 +1,6 @@
+com\crm\tests\TaskPageTest.class
+com\crm\tests\CompanyLookUpPageTest.class
+com\crm\tests\NewContactsPageTest.class
+com\crm\tests\ContactsPageTest.class
+com\crm\tests\HomePageTest.class
+com\crm\tests\LoginPageTest.class
