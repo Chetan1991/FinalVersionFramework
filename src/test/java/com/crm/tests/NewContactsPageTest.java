@@ -5,17 +5,15 @@ import java.io.IOException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.base.TestBase;
 import com.crm.pages.HomePage;
 import com.crm.pages.LoginPage;
 import com.crm.pages.NewContactsPage;
-import com.crm.reports.ExtentReportListener;
 import com.crm.util.TestUtil;
 import com.crm.tests.HomePageTest;
-@Listeners(value=ExtentReportListener.class)
+
 public class NewContactsPageTest extends TestBase {
 
 	LoginPage loginPage;
