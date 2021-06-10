@@ -2,7 +2,6 @@ package com.crm.pages;
 
 import java.util.List;
 
-import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -31,7 +30,8 @@ public class HomePage extends TestBase{
 	
 	@FindBy(xpath = "//*[@title='New Task' and @href='https://www.freecrm.com/system/index.cfm?action=task&sub=load&edit=1']")
 	WebElement tasksLink;
-
+	
+	//driver = new FirforxDriver();
 	HomePage()
 	{
 		PageFactory.initElements(driver, this);
