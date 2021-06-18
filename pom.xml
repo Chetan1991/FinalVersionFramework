@@ -82,7 +82,7 @@
           <suiteXmlFiles>
     	      <SuiteXmlFile>testng.xml</SuiteXmlFile>
           </suiteXmlFiles>
-          </configuration>
+          </configuration> 
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>

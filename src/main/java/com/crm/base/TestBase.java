@@ -1,6 +1,5 @@
 package com.crm.base;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -32,6 +31,7 @@ public class TestBase {
 public static void initilization()
 {
 	System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Chetan Folder\\chromedriver.exe");
+	String broswername =prop.getProperty("browserName");
 	driver= new ChromeDriver();
 	driver.get("https://www.freecrm.com/index.html");
 	driver.manage().window().maximize();
